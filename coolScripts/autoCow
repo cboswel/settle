@@ -1,0 +1,9 @@
+RESULT=$?;
+bored=("Moo" "This grass tastes weird" "I love bash" "Can't you tell? I'm a cow!" "Moooo" "Moooooooo" "..." beautiful);
+good=("Woohoo!" "It actually worked" "Good job" "Nice work" "Finally" "We did it!" "Not bad!");
+bad=("Nooo..." "Where's the typo?" "Here we go again, then" "Stupid computer" "We'll get it next time" "Broke it!");
+if [ $RESULT -eq 0 ]; then RANDOM=$$$(date +%s);
+	selectedexpression=${good[ $RANDOM % ${#good[@]} ]};
+	cowsay $selectedexpression; else RANDOM=$$$(date +%s);
+	selectedexpression=${bad[ $RANDOM % ${#bad[@]} ]};
+	cowsay -d $selectedexpression; fi

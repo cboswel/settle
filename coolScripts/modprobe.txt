@@ -1,0 +1,245 @@
+[   11.021694] iwlwifi 0000:aa:00.0: enabling device (0000 -> 0002)
+[   11.028456] iwlwifi 0000:aa:00.0: api flags index 2 larger than supported by driver
+[   11.028469] iwlwifi 0000:aa:00.0: TLV_FW_FSEQ_VERSION: FSEQ Version: 0.0.2.36
+[   11.028713] iwlwifi 0000:aa:00.0: loaded firmware version 72.a764baac.0 ty-a0-gf-a0-72.ucode op_mode iwlmvm
+[   11.204899] iwlwifi 0000:aa:00.0: Detected Intel(R) Wi-Fi 6 AX210 160MHz, REV=0x420
+[   11.382352] iwlwifi 0000:aa:00.0: WFPM_UMAC_PD_NOTIFICATION: 0x1f
+[   11.382373] iwlwifi 0000:aa:00.0: WFPM_LMAC2_PD_NOTIFICATION: 0x1f
+[   11.382387] iwlwifi 0000:aa:00.0: WFPM_AUTH_KEY_0: 0x90
+[   11.382401] iwlwifi 0000:aa:00.0: CNVI_SCU_SEQ_DATA_DW9: 0x0
+[   11.394791] iwlwifi 0000:aa:00.0: Detected RF GF, rfid=0x10d000
+[   11.398999] iwlwifi 0000:aa:00.0: Microcode SW error detected. Restarting 0x0.
+[   11.399798] iwlwifi 0000:aa:00.0: Start IWL Error Log Dump:
+[   11.399814] iwlwifi 0000:aa:00.0: Transport status: 0x0000004A, valid: 6
+[   11.399833] iwlwifi 0000:aa:00.0: Loaded firmware version: 72.a764baac.0 ty-a0-gf-a0-72.ucode
+[   11.399864] iwlwifi 0000:aa:00.0: 0x00000071 | NMI_INTERRUPT_UMAC_FATAL    
+[   11.399883] iwlwifi 0000:aa:00.0: 0x002082F0 | trm_hw_status0
+[   11.399898] iwlwifi 0000:aa:00.0: 0x00000000 | trm_hw_status1
+[   11.399912] iwlwifi 0000:aa:00.0: 0x004DB5D2 | branchlink2
+[   11.399927] iwlwifi 0000:aa:00.0: 0x004D180A | interruptlink1
+[   11.399941] iwlwifi 0000:aa:00.0: 0x004D180A | interruptlink2
+[   11.399956] iwlwifi 0000:aa:00.0: 0x004DA32C | data1
+[   11.399969] iwlwifi 0000:aa:00.0: 0x00000010 | data2
+[   11.399983] iwlwifi 0000:aa:00.0: 0x00000000 | data3
+[   11.399996] iwlwifi 0000:aa:00.0: 0x00000000 | beacon time
+[   11.400010] iwlwifi 0000:aa:00.0: 0x00017DBD | tsf low
+[   11.400024] iwlwifi 0000:aa:00.0: 0x00000000 | tsf hi
+[   11.400037] iwlwifi 0000:aa:00.0: 0x00000000 | time gp1
+[   11.400051] iwlwifi 0000:aa:00.0: 0x0002C969 | time gp2
+[   11.400064] iwlwifi 0000:aa:00.0: 0x00000001 | uCode revision type
+[   11.400080] iwlwifi 0000:aa:00.0: 0x00000048 | uCode version major
+[   11.400095] iwlwifi 0000:aa:00.0: 0xA764BAAC | uCode version minor
+[   11.400111] iwlwifi 0000:aa:00.0: 0x00000420 | hw version
+[   11.400125] iwlwifi 0000:aa:00.0: 0x00C80002 | board version
+[   11.400140] iwlwifi 0000:aa:00.0: 0x8008FD0D | hcmd
+[   11.400153] iwlwifi 0000:aa:00.0: 0x20028000 | isr0
+[   11.400166] iwlwifi 0000:aa:00.0: 0x60000000 | isr1
+[   11.400178] iwlwifi 0000:aa:00.0: 0x48F00002 | isr2
+[   11.400191] iwlwifi 0000:aa:00.0: 0x00C0000C | isr3
+[   11.400202] iwlwifi 0000:aa:00.0: 0x00000000 | isr4
+[   11.400215] iwlwifi 0000:aa:00.0: 0x00000000 | last cmd Id
+[   11.400230] iwlwifi 0000:aa:00.0: 0x004DA32C | wait_event
+[   11.400244] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_control
+[   11.400258] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_duration
+[   11.400272] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_mhvalid
+[   11.400287] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_addr_match
+[   11.400302] iwlwifi 0000:aa:00.0: 0x00000009 | lmpm_pmg_sel
+[   11.400316] iwlwifi 0000:aa:00.0: 0x00000000 | timestamp
+[   11.400329] iwlwifi 0000:aa:00.0: 0x00000024 | flow_handler
+[   11.400789] iwlwifi 0000:aa:00.0: Start IWL Error Log Dump:
+[   11.400804] iwlwifi 0000:aa:00.0: Transport status: 0x0000004A, valid: 7
+[   11.400833] iwlwifi 0000:aa:00.0: PNVM data is missing, please install iwlwifi-ty-a0-gf-a0.pnvm
+[   11.400877] iwlwifi 0000:aa:00.0: 0x2010070D | PNVM_MISSING
+[   11.400892] iwlwifi 0000:aa:00.0: 0x00000000 | umac branchlink1
+[   11.400907] iwlwifi 0000:aa:00.0: 0x8045F1D0 | umac branchlink2
+[   11.400922] iwlwifi 0000:aa:00.0: 0x0109912A | umac interruptlink1
+[   11.400937] iwlwifi 0000:aa:00.0: 0x00000000 | umac interruptlink2
+[   11.400953] iwlwifi 0000:aa:00.0: 0x00000005 | umac data1
+[   11.400966] iwlwifi 0000:aa:00.0: 0xDEADBEEF | umac data2
+[   11.400980] iwlwifi 0000:aa:00.0: 0xDEADBEEF | umac data3
+[   11.400994] iwlwifi 0000:aa:00.0: 0x00000048 | umac major
+[   11.401008] iwlwifi 0000:aa:00.0: 0xA764BAAC | umac minor
+[   11.401022] iwlwifi 0000:aa:00.0: 0x0002C963 | frame pointer
+[   11.401037] iwlwifi 0000:aa:00.0: 0xC0885EA8 | stack pointer
+[   11.401051] iwlwifi 0000:aa:00.0: 0x00010C00 | last host cmd
+[   11.401066] iwlwifi 0000:aa:00.0: 0x00000000 | isr status reg
+[   11.401342] iwlwifi 0000:aa:00.0: IML/ROM dump:
+[   11.401354] iwlwifi 0000:aa:00.0: 0x00000B03 | IML/ROM error/state
+[   11.401529] iwlwifi 0000:aa:00.0: 0x000085CA | IML/ROM data1
+[   11.401716] iwlwifi 0000:aa:00.0: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+[   11.401814] iwlwifi 0000:aa:00.0: Fseq Registers:
+[   11.401967] iwlwifi 0000:aa:00.0: 0x20000000 | FSEQ_ERROR_CODE
+[   11.402108] iwlwifi 0000:aa:00.0: 0x80440005 | FSEQ_TOP_INIT_VERSION
+[   11.402262] iwlwifi 0000:aa:00.0: 0x00080009 | FSEQ_CNVIO_INIT_VERSION
+[   11.402416] iwlwifi 0000:aa:00.0: 0x0000A652 | FSEQ_OTP_VERSION
+[   11.402569] iwlwifi 0000:aa:00.0: 0x00000002 | FSEQ_TOP_CONTENT_VERSION
+[   11.402723] iwlwifi 0000:aa:00.0: 0x4552414E | FSEQ_ALIVE_TOKEN
+[   11.402873] iwlwifi 0000:aa:00.0: 0x00400410 | FSEQ_CNVI_ID
+[   11.403024] iwlwifi 0000:aa:00.0: 0x00400410 | FSEQ_CNVR_ID
+[   11.403164] iwlwifi 0000:aa:00.0: 0x00400410 | CNVI_AUX_MISC_CHIP
+[   11.403320] iwlwifi 0000:aa:00.0: 0x00400410 | CNVR_AUX_MISC_CHIP
+[   11.403484] iwlwifi 0000:aa:00.0: 0x00009061 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+[   11.403645] iwlwifi 0000:aa:00.0: 0x00000061 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+[   11.403807] iwlwifi 0000:aa:00.0: WRT: Collecting data: ini trigger 13 fired (delay=0ms).
+[   12.428092] iwlwifi 0000:aa:00.0: Failed to run INIT ucode: -5
+[   12.441027] iwlwifi 0000:aa:00.0: retry init count 0
+[   12.465996] iwlwifi 0000:aa:00.0: Detected Intel(R) Wi-Fi 6 AX210 160MHz, REV=0x420
+[   12.637292] iwlwifi 0000:aa:00.0: WFPM_UMAC_PD_NOTIFICATION: 0x1f
+[   12.637318] iwlwifi 0000:aa:00.0: WFPM_LMAC2_PD_NOTIFICATION: 0x1f
+[   12.637329] iwlwifi 0000:aa:00.0: WFPM_AUTH_KEY_0: 0x90
+[   12.637340] iwlwifi 0000:aa:00.0: CNVI_SCU_SEQ_DATA_DW9: 0x0
+[   12.640523] iwlwifi 0000:aa:00.0: Microcode SW error detected. Restarting 0x0.
+[   12.640685] iwlwifi 0000:aa:00.0: Start IWL Error Log Dump:
+[   12.640688] iwlwifi 0000:aa:00.0: Transport status: 0x0000004A, valid: 6
+[   12.640711] iwlwifi 0000:aa:00.0: Loaded firmware version: 72.a764baac.0 ty-a0-gf-a0-72.ucode
+[   12.640714] iwlwifi 0000:aa:00.0: 0x00000071 | NMI_INTERRUPT_UMAC_FATAL    
+[   12.640718] iwlwifi 0000:aa:00.0: 0x002082F0 | trm_hw_status0
+[   12.640720] iwlwifi 0000:aa:00.0: 0x00000000 | trm_hw_status1
+[   12.640722] iwlwifi 0000:aa:00.0: 0x004DB5D2 | branchlink2
+[   12.640724] iwlwifi 0000:aa:00.0: 0x004D180A | interruptlink1
+[   12.640727] iwlwifi 0000:aa:00.0: 0x004D180A | interruptlink2
+[   12.640729] iwlwifi 0000:aa:00.0: 0x004DA32C | data1
+[   12.640731] iwlwifi 0000:aa:00.0: 0x00000010 | data2
+[   12.640733] iwlwifi 0000:aa:00.0: 0x00000000 | data3
+[   12.640735] iwlwifi 0000:aa:00.0: 0x00000000 | beacon time
+[   12.640737] iwlwifi 0000:aa:00.0: 0x000136C7 | tsf low
+[   12.640739] iwlwifi 0000:aa:00.0: 0x00000000 | tsf hi
+[   12.640741] iwlwifi 0000:aa:00.0: 0x00000000 | time gp1
+[   12.640743] iwlwifi 0000:aa:00.0: 0x000284A1 | time gp2
+[   12.640745] iwlwifi 0000:aa:00.0: 0x00000001 | uCode revision type
+[   12.640747] iwlwifi 0000:aa:00.0: 0x00000048 | uCode version major
+[   12.640749] iwlwifi 0000:aa:00.0: 0xA764BAAC | uCode version minor
+[   12.640751] iwlwifi 0000:aa:00.0: 0x00000420 | hw version
+[   12.640753] iwlwifi 0000:aa:00.0: 0x18C80002 | board version
+[   12.640755] iwlwifi 0000:aa:00.0: 0x8008FD0D | hcmd
+[   12.640758] iwlwifi 0000:aa:00.0: 0x20028000 | isr0
+[   12.640759] iwlwifi 0000:aa:00.0: 0x60000000 | isr1
+[   12.640761] iwlwifi 0000:aa:00.0: 0x48F00002 | isr2
+[   12.640763] iwlwifi 0000:aa:00.0: 0x00C0000C | isr3
+[   12.640765] iwlwifi 0000:aa:00.0: 0x00000000 | isr4
+[   12.640767] iwlwifi 0000:aa:00.0: 0x00000000 | last cmd Id
+[   12.640769] iwlwifi 0000:aa:00.0: 0x004DA32C | wait_event
+[   12.640771] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_control
+[   12.640773] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_duration
+[   12.640775] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_mhvalid
+[   12.640777] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_addr_match
+[   12.640779] iwlwifi 0000:aa:00.0: 0x00000009 | lmpm_pmg_sel
+[   12.640781] iwlwifi 0000:aa:00.0: 0x00000000 | timestamp
+[   12.640783] iwlwifi 0000:aa:00.0: 0x00000024 | flow_handler
+[   12.640863] iwlwifi 0000:aa:00.0: Start IWL Error Log Dump:
+[   12.640865] iwlwifi 0000:aa:00.0: Transport status: 0x0000004A, valid: 7
+[   12.640868] iwlwifi 0000:aa:00.0: PNVM data is missing, please install iwlwifi-ty-a0-gf-a0.pnvm
+[   12.640871] iwlwifi 0000:aa:00.0: 0x2010070D | PNVM_MISSING
+[   12.640873] iwlwifi 0000:aa:00.0: 0x00000000 | umac branchlink1
+[   12.640876] iwlwifi 0000:aa:00.0: 0x8045F1D0 | umac branchlink2
+[   12.640878] iwlwifi 0000:aa:00.0: 0x0109912A | umac interruptlink1
+[   12.640880] iwlwifi 0000:aa:00.0: 0x00000000 | umac interruptlink2
+[   12.640882] iwlwifi 0000:aa:00.0: 0x00000005 | umac data1
+[   12.640884] iwlwifi 0000:aa:00.0: 0xDEADBEEF | umac data2
+[   12.640886] iwlwifi 0000:aa:00.0: 0xDEADBEEF | umac data3
+[   12.640888] iwlwifi 0000:aa:00.0: 0x00000048 | umac major
+[   12.640890] iwlwifi 0000:aa:00.0: 0xA764BAAC | umac minor
+[   12.640892] iwlwifi 0000:aa:00.0: 0x0002849B | frame pointer
+[   12.640894] iwlwifi 0000:aa:00.0: 0xC0885EA8 | stack pointer
+[   12.640897] iwlwifi 0000:aa:00.0: 0x00010C00 | last host cmd
+[   12.640899] iwlwifi 0000:aa:00.0: 0x00000000 | isr status reg
+[   12.640954] iwlwifi 0000:aa:00.0: IML/ROM dump:
+[   12.640956] iwlwifi 0000:aa:00.0: 0x00000B03 | IML/ROM error/state
+[   12.640976] iwlwifi 0000:aa:00.0: 0x000085AA | IML/ROM data1
+[   12.640993] iwlwifi 0000:aa:00.0: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+[   12.641009] iwlwifi 0000:aa:00.0: Fseq Registers:
+[   12.641021] iwlwifi 0000:aa:00.0: 0x60000000 | FSEQ_ERROR_CODE
+[   12.641033] iwlwifi 0000:aa:00.0: 0x80440005 | FSEQ_TOP_INIT_VERSION
+[   12.641045] iwlwifi 0000:aa:00.0: 0x00080009 | FSEQ_CNVIO_INIT_VERSION
+[   12.641058] iwlwifi 0000:aa:00.0: 0x0000A652 | FSEQ_OTP_VERSION
+[   12.641071] iwlwifi 0000:aa:00.0: 0x00000002 | FSEQ_TOP_CONTENT_VERSION
+[   12.641083] iwlwifi 0000:aa:00.0: 0x4552414E | FSEQ_ALIVE_TOKEN
+[   12.641095] iwlwifi 0000:aa:00.0: 0x00400410 | FSEQ_CNVI_ID
+[   12.641107] iwlwifi 0000:aa:00.0: 0x00400410 | FSEQ_CNVR_ID
+[   12.641119] iwlwifi 0000:aa:00.0: 0x00400410 | CNVI_AUX_MISC_CHIP
+[   12.641133] iwlwifi 0000:aa:00.0: 0x00400410 | CNVR_AUX_MISC_CHIP
+[   12.641148] iwlwifi 0000:aa:00.0: 0x00009061 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+[   12.641163] iwlwifi 0000:aa:00.0: 0x00000061 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+[   12.641184] iwlwifi 0000:aa:00.0: WRT: Collecting data: ini trigger 13 fired (delay=0ms).
+[   13.530257] iwlwifi 0000:aa:00.0: Failed to run INIT ucode: -5
+[   13.543247] iwlwifi 0000:aa:00.0: retry init count 1
+[   13.563185] iwlwifi 0000:aa:00.0: Detected Intel(R) Wi-Fi 6 AX210 160MHz, REV=0x420
+[   13.734983] iwlwifi 0000:aa:00.0: WFPM_UMAC_PD_NOTIFICATION: 0x1f
+[   13.735024] iwlwifi 0000:aa:00.0: WFPM_LMAC2_PD_NOTIFICATION: 0x1f
+[   13.735042] iwlwifi 0000:aa:00.0: WFPM_AUTH_KEY_0: 0x90
+[   13.735056] iwlwifi 0000:aa:00.0: CNVI_SCU_SEQ_DATA_DW9: 0x0
+[   13.738155] iwlwifi 0000:aa:00.0: Microcode SW error detected. Restarting 0x0.
+[   13.738348] iwlwifi 0000:aa:00.0: Start IWL Error Log Dump:
+[   13.738363] iwlwifi 0000:aa:00.0: Transport status: 0x0000004A, valid: 6
+[   13.738380] iwlwifi 0000:aa:00.0: Loaded firmware version: 72.a764baac.0 ty-a0-gf-a0-72.ucode
+[   13.738400] iwlwifi 0000:aa:00.0: 0x00000071 | NMI_INTERRUPT_UMAC_FATAL    
+[   13.738417] iwlwifi 0000:aa:00.0: 0x002002F0 | trm_hw_status0
+[   13.738430] iwlwifi 0000:aa:00.0: 0x00000000 | trm_hw_status1
+[   13.738444] iwlwifi 0000:aa:00.0: 0x004DB5D2 | branchlink2
+[   13.738459] iwlwifi 0000:aa:00.0: 0x004D180A | interruptlink1
+[   13.738471] iwlwifi 0000:aa:00.0: 0x004D180A | interruptlink2
+[   13.738483] iwlwifi 0000:aa:00.0: 0x004DA32C | data1
+[   13.738494] iwlwifi 0000:aa:00.0: 0x00000010 | data2
+[   13.738505] iwlwifi 0000:aa:00.0: 0x00000000 | data3
+[   13.738516] iwlwifi 0000:aa:00.0: 0x00000000 | beacon time
+[   13.738528] iwlwifi 0000:aa:00.0: 0x00013665 | tsf low
+[   13.738539] iwlwifi 0000:aa:00.0: 0x00000000 | tsf hi
+[   13.738550] iwlwifi 0000:aa:00.0: 0x00000000 | time gp1
+[   13.738561] iwlwifi 0000:aa:00.0: 0x000281E8 | time gp2
+[   13.738572] iwlwifi 0000:aa:00.0: 0x00000001 | uCode revision type
+[   13.738585] iwlwifi 0000:aa:00.0: 0x00000048 | uCode version major
+[   13.738598] iwlwifi 0000:aa:00.0: 0xA764BAAC | uCode version minor
+[   13.738611] iwlwifi 0000:aa:00.0: 0x00000420 | hw version
+[   13.738623] iwlwifi 0000:aa:00.0: 0x18C80002 | board version
+[   13.738635] iwlwifi 0000:aa:00.0: 0x8008FD0D | hcmd
+[   13.738645] iwlwifi 0000:aa:00.0: 0x00020000 | isr0
+[   13.738656] iwlwifi 0000:aa:00.0: 0x60000000 | isr1
+[   13.738666] iwlwifi 0000:aa:00.0: 0x48F00002 | isr2
+[   13.738677] iwlwifi 0000:aa:00.0: 0x00C0000C | isr3
+[   13.738687] iwlwifi 0000:aa:00.0: 0x00000000 | isr4
+[   13.738698] iwlwifi 0000:aa:00.0: 0x00000000 | last cmd Id
+[   13.738709] iwlwifi 0000:aa:00.0: 0x004DA32C | wait_event
+[   13.738721] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_control
+[   13.738732] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_duration
+[   13.738744] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_mhvalid
+[   13.738756] iwlwifi 0000:aa:00.0: 0x00000000 | l2p_addr_match
+[   13.738768] iwlwifi 0000:aa:00.0: 0x00000009 | lmpm_pmg_sel
+[   13.738780] iwlwifi 0000:aa:00.0: 0x00000000 | timestamp
+[   13.738792] iwlwifi 0000:aa:00.0: 0x00000024 | flow_handler
+[   13.738885] iwlwifi 0000:aa:00.0: Start IWL Error Log Dump:
+[   13.738899] iwlwifi 0000:aa:00.0: Transport status: 0x0000004A, valid: 7
+[   13.738915] iwlwifi 0000:aa:00.0: PNVM data is missing, please install iwlwifi-ty-a0-gf-a0.pnvm
+[   13.738934] iwlwifi 0000:aa:00.0: 0x2010070D | PNVM_MISSING
+[   13.738948] iwlwifi 0000:aa:00.0: 0x00000000 | umac branchlink1
+[   13.738962] iwlwifi 0000:aa:00.0: 0x8045F1D0 | umac branchlink2
+[   13.738975] iwlwifi 0000:aa:00.0: 0x0109912A | umac interruptlink1
+[   13.738990] iwlwifi 0000:aa:00.0: 0x00000000 | umac interruptlink2
+[   13.739004] iwlwifi 0000:aa:00.0: 0x00000005 | umac data1
+[   13.739017] iwlwifi 0000:aa:00.0: 0xDEADBEEF | umac data2
+[   13.739030] iwlwifi 0000:aa:00.0: 0xDEADBEEF | umac data3
+[   13.739042] iwlwifi 0000:aa:00.0: 0x00000048 | umac major
+[   13.739055] iwlwifi 0000:aa:00.0: 0xA764BAAC | umac minor
+[   13.739068] iwlwifi 0000:aa:00.0: 0x000281E2 | frame pointer
+[   13.739082] iwlwifi 0000:aa:00.0: 0xC0885EA8 | stack pointer
+[   13.739095] iwlwifi 0000:aa:00.0: 0x00010C00 | last host cmd
+[   13.739109] iwlwifi 0000:aa:00.0: 0x00000000 | isr status reg
+[   13.739164] iwlwifi 0000:aa:00.0: IML/ROM dump:
+[   13.739175] iwlwifi 0000:aa:00.0: 0x00000B03 | IML/ROM error/state
+[   13.739242] iwlwifi 0000:aa:00.0: 0x000085C2 | IML/ROM data1
+[   13.739299] iwlwifi 0000:aa:00.0: 0x00000090 | IML/ROM WFPM_AUTH_KEY_0
+[   13.739356] iwlwifi 0000:aa:00.0: Fseq Registers:
+[   13.739408] iwlwifi 0000:aa:00.0: 0x60000000 | FSEQ_ERROR_CODE
+[   13.739460] iwlwifi 0000:aa:00.0: 0x80440005 | FSEQ_TOP_INIT_VERSION
+[   13.739515] iwlwifi 0000:aa:00.0: 0x00080009 | FSEQ_CNVIO_INIT_VERSION
+[   13.739569] iwlwifi 0000:aa:00.0: 0x0000A652 | FSEQ_OTP_VERSION
+[   13.739621] iwlwifi 0000:aa:00.0: 0x00000002 | FSEQ_TOP_CONTENT_VERSION
+[   13.739678] iwlwifi 0000:aa:00.0: 0x4552414E | FSEQ_ALIVE_TOKEN
+[   13.739732] iwlwifi 0000:aa:00.0: 0x00400410 | FSEQ_CNVI_ID
+[   13.739770] iwlwifi 0000:aa:00.0: 0x00400410 | FSEQ_CNVR_ID
+[   13.740662] iwlwifi 0000:aa:00.0: 0x00400410 | CNVI_AUX_MISC_CHIP
+[   13.741514] iwlwifi 0000:aa:00.0: 0x00400410 | CNVR_AUX_MISC_CHIP
+[   13.742354] iwlwifi 0000:aa:00.0: 0x00009061 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+[   13.743183] iwlwifi 0000:aa:00.0: 0x00000061 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+[   13.744012] iwlwifi 0000:aa:00.0: WRT: Collecting data: ini trigger 13 fired (delay=0ms).
+[   14.650374] iwlwifi 0000:aa:00.0: Failed to run INIT ucode: -5
+[   14.663502] iwlwifi 0000:aa:00.0: retry init count 2

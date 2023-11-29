@@ -1,0 +1,42 @@
+#!/bin/bash
+
+bored=("Moo" "This grass tastes weird" "I love bash" "Can't you tell? I'm a cow!" "Moooo" "Moooooooo" "...")
+good=("Woohoo!" "It actually worked" "Good job" "Nice work" "Finally" "We did it!" "Not bad!")
+bad=("Nooo..." "Where's the typo?" "Here we go again, then" "Stupid computer" "We'll get it next time" "Broke it!")
+
+unset argless
+
+while getopts 'yn' opt; do
+  case "$opt" in
+    y)
+	# Seed random generator
+	RANDOM=$$$(date +%s)
+
+	# Get random expression...
+	selectedexpression=${good[ $RANDOM % ${#good[@]} ]}
+
+	# Write to Shell
+	cowsay $selectedexpression
+	;;
+
+    n)
+	RANDOM=$$$(date +%s)
+	selectedexpression=${bad[ $RANDOM % ${#bad[@]} ]}
+	cowsay -d $selectedexpression
+	;;
+
+    ?)
+	echo -e "What? .\nI only know: $(basename $0) [-y] [-n]"
+	exit 1
+	;;
+  esac
+  argless=1
+done
+shift "$(($OPTIND -1))"
+
+if [ -z "$argless" ]
+then
+	RANDOM=$$$(date +%s)
+	selectedexpression=${bored[ $RANDOM % ${#bored[@]} ]}
+	cowsay $selectedexpression
+fi

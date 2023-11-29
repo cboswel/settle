@@ -20,22 +20,38 @@ fi
 
 alias vpnin="sudo openfortivpn vpn.ukaea.uk:943 --username=cboswel"
 alias vpnout="sudo pkill "openfortivpn""
+alias matlab="/usr/local/MATLAB/R2023a/bin/matlab"
 alias ..="cd ../"
 alias ...="cd ../../"
 alias ....="cd ../../../"
 alias .....="cd ../../../../"
 alias suod="sudo"
-alias aptget="sudo apt-get install"
+alias gti="git"
 alias solin="vncviewer vnchost.jet.uk:5915"
-alias wttr="curl wttr.in"
 alias tor="cd /home/charlie/Downloads/tor-browser-linux64-11.5.2_en-US/tor-browser_en-US/; ./start-tor-browser.desktop"
+alias wttr="curl wttr.in"
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias venv="source ~/venv/bin/activate"
+alias newvenv="rm -rf ~/venv; python3 -m venv ~/venv"
+alias hotspot="wihotspot"
+alias approve="cowsay \"Nice work!!\""
+alias disapprove="cowsay \"Too bad...\""
+alias feedback="PROMPT_COMMAND=cowStuff"
+alias nofeedback="PROMPT_COMMAND="
 
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
-HISTCONTROL=ignoreboth
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# append to the history file, don't overwrite it
+# Avoid duplicates
+HISTCONTROL=ignoredups:erasedups
+# When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
+
+# After each command, append to the history file and reread it
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=-1
@@ -137,3 +153,16 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+cowStuff ()
+{
+RESULT=$?;
+bored=("Moo" "This grass tastes weird" "I love bash" "Can't you tell? I'm a cow!" "Moooo" "Moooooooo" "..." beautiful);
+good=("Woohoo!" "It actually worked" "Good job" "Nice work" "Finally" "We did it!" "Not bad!");
+bad=("Nooo..." "Where's the typo?" "Here we go again, then" "Stupid computer" "We'll get it next time" "Broke it!");
+if [ $RESULT -eq 0 ]; then RANDOM=$$$(date +%s);
+	selectedexpression=${good[ $RANDOM % ${#good[@]} ]};
+	cowsay $selectedexpression; else RANDOM=$$$(date +%s);
+	selectedexpression=${bad[ $RANDOM % ${#bad[@]} ]};
+	cowsay -d $selectedexpression; fi
+}
