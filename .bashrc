@@ -16,31 +16,6 @@ else
 	tmux new -s base
 fi
 
-#custom aliases
-
-alias vpnin="sudo openfortivpn vpn.ukaea.uk:943 --username=cboswel"
-alias vpnout="sudo pkill "openfortivpn""
-alias matlab="/usr/local/MATLAB/R2023a/bin/matlab"
-alias ..="cd ../"
-alias ...="cd ../../"
-alias ....="cd ../../../"
-alias .....="cd ../../../../"
-alias suod="sudo"
-alias gti="git"
-alias solin="vncviewer vnchost.jet.uk:5915"
-alias tor="cd /home/charlie/Downloads/tor-browser-linux64-11.5.2_en-US/tor-browser_en-US/; ./start-tor-browser.desktop"
-alias wttr="curl wttr.in"
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias venv="source ~/venv/bin/activate"
-alias newvenv="rm -rf ~/venv; python3 -m venv ~/venv"
-alias hotspot="wihotspot"
-alias approve="cowsay \"Nice work!!\""
-alias disapprove="cowsay \"Too bad...\""
-alias feedback="PROMPT_COMMAND=cowStuff"
-alias nofeedback="PROMPT_COMMAND="
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -81,7 +56,7 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-#force_color_prompt=yes
+force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -125,22 +100,13 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.bashrc_aliases ]; then
+    . ~/.bashrc_aliases
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -154,9 +120,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-cowStuff ()
-{
-RESULT=$?;
+alias pycharm=~/bin/pycharm-2024.1.2/bin/pycharm.sh
+
+cowStuff() {
+
 bored=("Moo" "This grass tastes weird" "I love bash" "Can't you tell? I'm a cow!" "Moooo" "Moooooooo" "..." beautiful);
 good=("Woohoo!" "It actually worked" "Good job" "Nice work" "Finally" "We did it!" "Not bad!");
 bad=("Nooo..." "Where's the typo?" "Here we go again, then" "Stupid computer" "We'll get it next time" "Broke it!");
@@ -166,3 +133,6 @@ if [ $RESULT -eq 0 ]; then RANDOM=$$$(date +%s);
 	selectedexpression=${bad[ $RANDOM % ${#bad[@]} ]};
 	cowsay -d $selectedexpression; fi
 }
+
+export PICO_SDK_PATH=/home/charlie/pico-sdk
+export MARTe2_DIR=/home/charlie/MARTe2-dev
