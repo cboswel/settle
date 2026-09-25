@@ -1,0 +1,137 @@
+themes {
+    gruvbox-orange {
+        text_unselected {
+            base 235 219 178
+            background 40 40 40
+            emphasis_0 214 93 14
+            emphasis_1 104 157 106
+            emphasis_2 215 153 33
+            emphasis_3 177 98 134
+        }
+
+        text_selected {
+            base 251 241 199
+            background 80 73 69
+            emphasis_0 254 128 25
+            emphasis_1 184 187 38
+            emphasis_2 250 189 47
+            emphasis_3 211 134 155
+        }
+
+        // Active tab / active status-bar mode
+        ribbon_selected {
+            base 40 40 40
+            background 254 128 25
+            emphasis_0 40 40 40
+            emphasis_1 60 56 54
+            emphasis_2 40 40 40
+            emphasis_3 40 40 40
+        }
+
+        // Inactive tabs / status-bar shortcuts
+        ribbon_unselected {
+            base 235 219 178
+            background 80 73 69
+            emphasis_0 251 73 52
+            emphasis_1 184 187 38
+            emphasis_2 131 165 152
+            emphasis_3 211 134 155
+        }
+
+        table_title {
+            base 254 128 25
+            background 0
+            emphasis_0 131 165 152
+            emphasis_1 184 187 38
+            emphasis_2 250 189 47
+            emphasis_3 211 134 155
+        }
+
+        table_cell_selected {
+            base 251 241 199
+            background 80 73 69
+            emphasis_0 254 128 25
+            emphasis_1 184 187 38
+            emphasis_2 250 189 47
+            emphasis_3 211 134 155
+        }
+
+        table_cell_unselected {
+            base 235 219 178
+            background 60 56 54
+            emphasis_0 214 93 14
+            emphasis_1 104 157 106
+            emphasis_2 215 153 33
+            emphasis_3 177 98 134
+        }
+
+        list_selected {
+            base 251 241 199
+            background 80 73 69
+            emphasis_0 254 128 25
+            emphasis_1 184 187 38
+            emphasis_2 250 189 47
+            emphasis_3 211 134 155
+        }
+
+        list_unselected {
+            base 235 219 178
+            background 60 56 54
+            emphasis_0 214 93 14
+            emphasis_1 104 157 106
+            emphasis_2 215 153 33
+            emphasis_3 177 98 134
+        }
+
+        // THE GOOD STUFF
+        frame_selected {
+            base 254 128 25
+            background 0
+            emphasis_0 254 128 25
+            emphasis_1 250 189 47
+            emphasis_2 235 219 178
+            emphasis_3 0
+        }
+
+        // Pane/tab/resize mode
+        frame_highlight {
+            base 214 93 14
+            background 0
+            emphasis_0 254 128 25
+            emphasis_1 254 128 25
+            emphasis_2 254 128 25
+            emphasis_3 254 128 25
+        }
+
+        exit_code_success {
+            base 184 187 38
+            background 0
+            emphasis_0 142 192 124
+            emphasis_1 60 56 54
+            emphasis_2 211 134 155
+            emphasis_3 131 165 152
+        }
+
+        exit_code_error {
+            base 251 73 52
+            background 0
+            emphasis_0 250 189 47
+            emphasis_1 0
+            emphasis_2 0
+            emphasis_3 0
+        }
+
+        multiplayer_user_colors {
+            player_1 211 134 155
+            player_2 131 165 152
+            player_3 250 189 47
+            player_4 254 128 25
+            player_5 184 187 38
+            player_6 104 157 106
+            player_7 251 73 52
+            player_8 69 133 136
+            player_9 214 93 14
+            player_10 177 98 134
+        }
+    }
+}

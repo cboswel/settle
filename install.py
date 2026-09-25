@@ -1,8 +1,3 @@
-#!/bin/python3
-
-import os
-
-os.system("sudo apt-get update")
 os.system("cp -r .* ~/.")
 goodies = ["iw", "net-tools", "g++", "git", "vim", "xclip", "cowsay", "hollywood", "tmux", "real-vnc", "curl", "ca-certificates", "gnupg", "gcc"]
 for goody in goodies:
